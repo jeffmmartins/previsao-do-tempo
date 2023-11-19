@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+  background-image: url(../imagens/landscape.png);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  background-color: black;
+  opacity: 70%;
+  padding: 20px 20px;
+  border-radius: 15px;
+  width: 95%;
+  max-width: 300px;
+}
+
+.incidade {
+  border-radius: 20px;
+  width: calc(100%-100px);
+  outline: none;
+  font-size: 1.3em;
+  border: none;
+  background-color: #7c7c7c2b;
+  color:white;
+  padding: 7px;
+}
+
+button{
+  cursor: pointer;
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
+  opacity: 80%;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  float: right;
+  margin-top: 8px;
+}
+
+h3{
+  color: white;
+  padding: 5px;
+}
+
+p{
+  color: white;
+  font-weight: lighter;
+}
+
+.temperatura{
+  display: flex;
+  align-items: center;
+}
+
+.city{
+text-transform: capitalize;
+}
